@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传or下载</title>
+</head>
+<body>
+<div align="center">
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <p>
+            <input type="file" name="file" />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type=submit value="上传" />
+        </p>
+        <h4 style="color:#00c8c8">{{ tip }}</h4>
+    </form>
+    <hr/>
+    <a href="/download">点击下载所需的文件</a>
+
+</div>
+</body>
+</html>

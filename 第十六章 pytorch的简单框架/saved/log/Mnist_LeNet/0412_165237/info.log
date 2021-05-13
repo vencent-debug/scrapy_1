@@ -1,0 +1,52 @@
+2021-04-12 16:52:37,344 - train - INFO - MnistModel(
+  (conv1): Conv2d(1, 10, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(10, 20, kernel_size=(5, 5), stride=(1, 1))
+  (conv2_drop): Dropout2d(p=0.5, inplace=False)
+  (fc1): Linear(in_features=320, out_features=50, bias=True)
+  (fc2): Linear(in_features=50, out_features=10, bias=True)
+)
+Trainable parameters: 21840
+2021-04-12 16:52:37,346 - trainer - WARNING - Warning: There's no GPU available on this machine,training will be performed on CPU.
+2021-04-12 16:52:54,205 - trainer - INFO -     epoch          : 1
+2021-04-12 16:52:54,207 - trainer - INFO -     loss           : 0.5872121146787399
+2021-04-12 16:52:54,207 - trainer - INFO -     accuracy       : 0.8158244118144888
+2021-04-12 16:52:54,207 - trainer - INFO -     top_k_acc      : 0.94505067281652
+2021-04-12 16:52:54,207 - trainer - INFO -     val_loss       : 0.11363900306218482
+2021-04-12 16:52:54,207 - trainer - INFO -     val_accuracy   : 0.9645706686930091
+2021-04-12 16:52:54,207 - trainer - INFO -     val_top_k_acc  : 0.9971742021276596
+2021-04-12 16:52:54,213 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0412_165237/checkpoint-epoch1.pth ...
+2021-04-12 16:52:54,216 - trainer - INFO - Saving current best: model_best.pth ...
+2021-04-12 16:53:09,821 - trainer - INFO -     epoch          : 2
+2021-04-12 16:53:09,823 - trainer - INFO -     loss           : 0.38210419025183856
+2021-04-12 16:53:09,823 - trainer - INFO -     accuracy       : 0.8852324179079214
+2021-04-12 16:53:09,823 - trainer - INFO -     top_k_acc      : 0.9763324094448206
+2021-04-12 16:53:09,823 - trainer - INFO -     val_loss       : 0.09544931431400015
+2021-04-12 16:53:09,824 - trainer - INFO -     val_accuracy   : 0.9700560410334347
+2021-04-12 16:53:09,824 - trainer - INFO -     val_top_k_acc  : 0.9980053191489362
+2021-04-12 16:53:09,828 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0412_165237/checkpoint-epoch2.pth ...
+2021-04-12 16:53:09,832 - trainer - INFO - Saving current best: model_best.pth ...
+2021-04-12 16:53:27,271 - trainer - INFO -     epoch          : 3
+2021-04-12 16:53:27,273 - trainer - INFO -     loss           : 0.3540911116588737
+2021-04-12 16:53:27,273 - trainer - INFO -     accuracy       : 0.8954965724441435
+2021-04-12 16:53:27,273 - trainer - INFO -     top_k_acc      : 0.9782974356804333
+2021-04-12 16:53:27,273 - trainer - INFO -     val_loss       : 0.08996794467910807
+2021-04-12 16:53:27,273 - trainer - INFO -     val_accuracy   : 0.9718607522796352
+2021-04-12 16:53:27,274 - trainer - INFO -     val_top_k_acc  : 0.9976491261398177
+2021-04-12 16:53:27,279 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0412_165237/checkpoint-epoch3.pth ...
+2021-04-12 16:53:27,283 - trainer - INFO - Saving current best: model_best.pth ...
+2021-04-12 16:53:45,101 - trainer - INFO -     epoch          : 4
+2021-04-12 16:53:45,103 - trainer - INFO -     loss           : 0.3420488806132457
+2021-04-12 16:53:45,103 - trainer - INFO -     accuracy       : 0.9004739336492891
+2021-04-12 16:53:45,103 - trainer - INFO -     top_k_acc      : 0.9786306702775897
+2021-04-12 16:53:45,103 - trainer - INFO -     val_loss       : 0.10301642421078175
+2021-04-12 16:53:45,103 - trainer - INFO -     val_accuracy   : 0.9694386398176291
+2021-04-12 16:53:45,103 - trainer - INFO -     val_top_k_acc  : 0.9969842325227964
+2021-04-12 16:53:45,110 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0412_165237/checkpoint-epoch4.pth ...
+2021-04-12 16:54:03,090 - trainer - INFO -     epoch          : 5
+2021-04-12 16:54:03,091 - trainer - INFO -     loss           : 0.331347937726579
+2021-04-12 16:54:03,091 - trainer - INFO -     accuracy       : 0.9027219448205823
+2021-04-12 16:54:03,091 - trainer - INFO -     top_k_acc      : 0.9794505331753555
+2021-04-12 16:54:03,091 - trainer - INFO -     val_loss       : 0.0909581941334491
+2021-04-12 16:54:03,091 - trainer - INFO -     val_accuracy   : 0.9708634118541033
+2021-04-12 16:54:03,091 - trainer - INFO -     val_top_k_acc  : 0.9978390957446809
+2021-04-12 16:54:03,096 - trainer - INFO - Saving checkpoint: saved/models/Mnist_LeNet/0412_165237/checkpoint-epoch5.pth ...

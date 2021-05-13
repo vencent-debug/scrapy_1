@@ -1,0 +1,53 @@
+2019-11-25 14:44:29,926 - train - INFO - MnistModel(
+  (conv1): Conv2d(1, 10, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(10, 20, kernel_size=(5, 5), stride=(1, 1))
+  (conv2_drop): Dropout2d(p=0.5, inplace=False)
+  (fc1): Linear(in_features=320, out_features=50, bias=True)
+  (fc2): Linear(in_features=50, out_features=10, bias=True)
+)
+Trainable parameters: 21840
+2019-11-25 14:44:40,869 - trainer - INFO -     epoch          : 1
+2019-11-25 14:44:40,869 - trainer - INFO -     loss           : 0.651470377193808
+2019-11-25 14:44:40,869 - trainer - INFO -     accuracy       : 0.7918262313811781
+2019-11-25 14:44:40,869 - trainer - INFO -     top_k_acc      : 0.9306395988490183
+2019-11-25 14:44:40,869 - trainer - INFO -     val_loss       : 0.11842963551270201
+2019-11-25 14:44:40,869 - trainer - INFO -     val_accuracy   : 0.9643806990881458
+2019-11-25 14:44:40,869 - trainer - INFO -     val_top_k_acc  : 0.9967705167173252
+2019-11-25 14:44:40,921 - trainer - INFO - Saving checkpoint: saved\models\Mnist_LeNet\1125_144429\checkpoint-epoch1.pth ...
+2019-11-25 14:44:40,938 - trainer - INFO - Saving current best: model_best.pth ...
+2019-11-25 14:44:49,120 - trainer - INFO -     epoch          : 2
+2019-11-25 14:44:49,120 - trainer - INFO -     loss           : 0.2880608697920614
+2019-11-25 14:44:49,121 - trainer - INFO -     accuracy       : 0.9146469829045362
+2019-11-25 14:44:49,121 - trainer - INFO -     top_k_acc      : 0.9858110824306026
+2019-11-25 14:44:49,121 - trainer - INFO -     val_loss       : 0.08037351959563316
+2019-11-25 14:44:49,121 - trainer - INFO -     val_accuracy   : 0.9738791793313071
+2019-11-25 14:44:49,121 - trainer - INFO -     val_top_k_acc  : 0.9980053191489362
+2019-11-25 14:44:49,124 - trainer - INFO - Saving checkpoint: saved\models\Mnist_LeNet\1125_144429\checkpoint-epoch2.pth ...
+2019-11-25 14:44:49,126 - trainer - INFO - Saving current best: model_best.pth ...
+2019-11-25 14:44:57,136 - trainer - INFO -     epoch          : 3
+2019-11-25 14:44:57,136 - trainer - INFO -     loss           : 0.22970233739340476
+2019-11-25 14:44:57,136 - trainer - INFO -     accuracy       : 0.9325966909275558
+2019-11-25 14:44:57,136 - trainer - INFO -     top_k_acc      : 0.989743779620853
+2019-11-25 14:44:57,136 - trainer - INFO -     val_loss       : 0.06614066268059801
+2019-11-25 14:44:57,136 - trainer - INFO -     val_accuracy   : 0.9783197188449848
+2019-11-25 14:44:57,136 - trainer - INFO -     val_top_k_acc  : 0.9985039893617021
+2019-11-25 14:44:57,139 - trainer - INFO - Saving checkpoint: saved\models\Mnist_LeNet\1125_144429\checkpoint-epoch3.pth ...
+2019-11-25 14:44:57,141 - trainer - INFO - Saving current best: model_best.pth ...
+2019-11-25 14:45:05,283 - trainer - INFO -     epoch          : 4
+2019-11-25 14:45:05,283 - trainer - INFO -     loss           : 0.20156922279658476
+2019-11-25 14:45:05,283 - trainer - INFO -     accuracy       : 0.9402425736289777
+2019-11-25 14:45:05,283 - trainer - INFO -     top_k_acc      : 0.9914998730534869
+2019-11-25 14:45:05,283 - trainer - INFO -     val_loss       : 0.06257506463914475
+2019-11-25 14:45:05,283 - trainer - INFO -     val_accuracy   : 0.9808368161094224
+2019-11-25 14:45:05,283 - trainer - INFO -     val_top_k_acc  : 0.9990026595744681
+2019-11-25 14:45:05,286 - trainer - INFO - Saving checkpoint: saved\models\Mnist_LeNet\1125_144429\checkpoint-epoch4.pth ...
+2019-11-25 14:45:05,289 - trainer - INFO - Saving current best: model_best.pth ...
+2019-11-25 14:45:13,571 - trainer - INFO -     epoch          : 5
+2019-11-25 14:45:13,571 - trainer - INFO -     loss           : 0.1863467442445563
+2019-11-25 14:45:13,571 - trainer - INFO -     accuracy       : 0.9444370980027081
+2019-11-25 14:45:13,571 - trainer - INFO -     top_k_acc      : 0.9926661941435342
+2019-11-25 14:45:13,572 - trainer - INFO -     val_loss       : 0.05660869236639206
+2019-11-25 14:45:13,572 - trainer - INFO -     val_accuracy   : 0.9820241261398177
+2019-11-25 14:45:13,572 - trainer - INFO -     val_top_k_acc  : 0.9991688829787234
+2019-11-25 14:45:13,575 - trainer - INFO - Saving checkpoint: saved\models\Mnist_LeNet\1125_144429\checkpoint-epoch5.pth ...
+2019-11-25 14:45:13,577 - trainer - INFO - Saving current best: model_best.pth ...
